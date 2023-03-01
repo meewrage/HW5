@@ -8,7 +8,7 @@ int ReadNumber(string messageToUser)
 }
 
 
-int[] GetRandomArray(int length)
+int[] GetRandomArray(int length, int leftRange, int rightRange)
 {
     int leftRange = 100;
     int rightRange = 1000;
