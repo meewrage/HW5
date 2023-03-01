@@ -8,7 +8,7 @@ int ReadNumber(string messageToUser)
 }
 
 
-int[] GetRandomArray(int length, int leftRange, int rightRange)
+int[] GetRandomArray(int length, int leftBorder, int rightBorder)
 {
     int leftRange = 100;
     int rightRange = 1000;
@@ -30,7 +30,7 @@ int evenNumbers(int[] array)
 {
     if (array[i] % 2 == 0)
     {
-        sumnum += sumnum;
+        sumnum += 1;
     }
  
 }
